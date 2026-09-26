@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/SEU-USUARIO"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/jos%C3%A9-cardoso-4b12ba126"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/josecardosodev/Portif-lio"><img src="https://img.shields.io/badge/Portf%C3%B3lio-111827?style=for-the-badge&logo=github&logoColor=white" alt="Portfólio"></a>
 </p>
 
