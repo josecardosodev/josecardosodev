@@ -19,7 +19,7 @@
 
 Analista de Sistemas e Suporte Técnico Sênior (N2/N3) com **15+ anos em TI** e coordenação
 técnica de uma operação que atende cerca de **4 mil usuários** e **700 máquinas em 12 laboratórios**. Pego um problema real da operação e transformo
-em sistema: triagem de chamados com IA, gestão de cadastros, controle de ambientes de prova.
+em sistema com **Python** e **Node.js**: triagem automatizada de chamados, gestão de cadastros, controle de ambientes de prova.
 
 - 🔭 Destaque: **[IA Triagem de Chamados](https://github.com/josecardosodev/nat-ia-triagem)**, API que classifica chamados com o Claude (Anthropic)
 - 🧪 Qualidade: testes automatizados com **pytest** e **Selenium**
@@ -30,7 +30,7 @@ em sistema: triagem de chamados com IA, gestão de cadastros, controle de ambien
 ### 🛠️ Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,selenium,postgres,sqlite,git,github,githubactions,vscode,windows,apple,powershell&perline=12" alt="Stack">
+  <img src="https://skillicons.dev/icons?i=python,nodejs,fastapi,selenium,postgres,sqlite,git,github,githubactions,vscode,windows,apple,powershell&perline=13" alt="Stack">
 </p>
 
 <p align="left">
