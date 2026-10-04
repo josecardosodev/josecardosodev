@@ -66,7 +66,7 @@
     <circle cx="22" cy="20" r="6" fill="#f87171"/><circle cx="42" cy="20" r="6" fill="#fbbf24"/><circle cx="62" cy="20" r="6" fill="#34d399"/>
     <text x="230" y="25" text-anchor="middle" class="m" font-size="12" fill="#64748b">powershell — josecardosodev</text>
     <g class="m" font-size="14">
-      <text x="22" y="78"><tspan fill="#34d399">PS&gt;</tspan><tspan fill="#e2e8f0"> python triagem.py --ia claude</tspan></text>
+      <text x="22" y="78"><tspan fill="#34d399">PS&gt;</tspan><tspan fill="#e2e8f0"> python triagem.py --auto</tspan></text>
       <text x="22" y="104" fill="#94a3b8">  ✔ chamado classificado: <tspan fill="#38bdf8">Prioridade Alta</tspan></text>
       <text x="22" y="144"><tspan fill="#34d399">PS&gt;</tspan><tspan fill="#e2e8f0"> zerocola --status</tspan></text>
       <text x="22" y="170" fill="#94a3b8">  ✔ <tspan fill="#fbbf24">700 máquinas</tspan> · 12 labs protegidos</text>

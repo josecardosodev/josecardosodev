@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/josecardosodev">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Automa%C3%A7%C3%A3o+de+processos+com+Python;APIs+REST+com+FastAPI;Testes+de+QA+com+pytest+e+Selenium;Active+Directory%2C+GPO+e+Microsoft+365;IA+generativa+aplicada+a+suporte+t%C3%A9cnico" alt="Typing SVG">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Automa%C3%A7%C3%A3o+de+processos+com+Python;APIs+REST+com+FastAPI;Testes+de+QA+com+pytest+e+Selenium;Active+Directory%2C+GPO+e+Microsoft+365;Node.js+e+Python+para+automa%C3%A7%C3%A3o" alt="Typing SVG">
   </a>
 </p>
 
@@ -21,9 +21,9 @@ Analista de Sistemas e Suporte Técnico Sênior (N2/N3) com **15+ anos em TI** e
 técnica de uma operação que atende cerca de **4 mil usuários** e **700 máquinas em 12 laboratórios**. Pego um problema real da operação e transformo
 em sistema com **Python** e **Node.js**: triagem automatizada de chamados, gestão de cadastros, controle de ambientes de prova.
 
-- 🔭 Destaque: **[IA Triagem de Chamados](https://github.com/josecardosodev/nat-ia-triagem)**, API que classifica chamados com o Claude (Anthropic)
+- 🔭 Destaque: **[Triagem Automatizada de Chamados](https://github.com/josecardosodev/nat-ia-triagem)**: API REST em Python (FastAPI) que classifica chamados por categoria e prioridade
 - 🧪 Qualidade: testes automatizados com **pytest** e **Selenium**
-- 🌱 Estudando: FastAPI, segurança de identidades e IA generativa aplicada a processos
+- 🌱 Estudando: FastAPI, **Node.js**, segurança de identidades e automação de processos
 - 🎓 Graduação em Processos Gerenciais (FGV)
 - ⚡ Diferencial: entendo a **infraestrutura** onde o código vai rodar
 
@@ -37,7 +37,7 @@ em sistema com **Python** e **Node.js**: triagem automatizada de chamados, gest�
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white">
   <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white">
-  <img src="https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white">
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white">
   <img src="https://img.shields.io/badge/Active%20Directory%20%2F%20GPO-0078D4?style=flat-square&logo=windows&logoColor=white">
   <img src="https://img.shields.io/badge/Microsoft%20365-D83B01?style=flat-square&logo=microsoft&logoColor=white">
   <img src="https://img.shields.io/badge/Jira%20Service%20Management-0052CC?style=flat-square&logo=jira&logoColor=white">
@@ -48,7 +48,7 @@ em sistema com **Python** e **Node.js**: triagem automatizada de chamados, gest�
 
 | Projeto | O que faz | Stack |
 |---|---|---|
-| 🤖 [**IA Triagem de Chamados**](https://github.com/josecardosodev/nat-ia-triagem) | Classifica chamados técnicos com IA: categoria, prioridade e informação faltante | FastAPI · Claude · PostgreSQL · pytest |
+| ⚙️ [**Triagem Automatizada de Chamados**](https://github.com/josecardosodev/nat-ia-triagem) | Classifica chamados técnicos por categoria, prioridade e informação faltante | Python · FastAPI · PostgreSQL · pytest |
 | 🏛️ [**Gestão de Funcionários**](https://github.com/josecardosodev/gestao-funcionarios) | Cadastro, pagamentos, benefícios e relatórios. Em produção há mais de 1 ano | Streamlit · SQLite · Pandas |
 | 🛡️ [**ZeroCola**](https://github.com/josecardosodev/zerocola-vitrine) | Bloqueio para provas: 6 camadas contra IA, com auditoria e watchdog. **Em produção em 700 máquinas de 12 laboratórios** | Python · Windows · cliente-servidor |
 
