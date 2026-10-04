@@ -48,8 +48,8 @@ em sistema: triagem de chamados com IA, gestão de cadastros, controle de ambien
 | Projeto | O que faz | Stack |
 |---|---|---|
 | 🤖 [**IA Triagem de Chamados**](https://github.com/josecardosodev/nat-ia-triagem) | Classifica chamados técnicos com IA: categoria, prioridade e informação faltante | FastAPI · Claude · PostgreSQL · pytest |
-| 🏛️ **Gestão de Funcionários** | Cadastro, pagamentos, benefícios e relatórios. Em produção há mais de 1 ano | Streamlit · SQLite · Pandas |
-| 🛡️ **ZeroCola** | Controle de ambiente de prova: bloqueio de IA, atalhos e DevTools em laboratórios | Python · Windows · PowerShell |
+| 🏛️ [**Gestão de Funcionários**](https://github.com/josecardosodev/gestao-funcionarios) | Cadastro, pagamentos, benefícios e relatórios. Em produção há mais de 1 ano | Streamlit · SQLite · Pandas |
+| 🛡️ [**ZeroCola**](https://github.com/josecardosodev/zerocola-vitrine) | Bloqueio para provas em laboratórios: 6 camadas de proteção contra IA, com auditoria e watchdog. Em produção | Python · Windows · cliente-servidor |
 
 <sub>Projetos em produção institucional têm código privado. Detalhes no [portfólio](https://github.com/josecardosodev/Portif-lio).</sub>
 
