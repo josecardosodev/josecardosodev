@@ -1,80 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="José Cardoso — Suporte N3, automação em Python e infraestrutura">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-label="José Cardoso — Analista de Sistemas e Suporte Técnico Sênior N2/N3, Sustentação, Automação com Python e Testes de QA">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1020"/>
-      <stop offset="0.55" stop-color="#101a33"/>
-      <stop offset="1" stop-color="#0d2a3a"/>
+      <stop offset="0" stop-color="#070b18"/><stop offset="0.5" stop-color="#0e1a33"/><stop offset="1" stop-color="#0b2b3a"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#34d399"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
-    </pattern>
-    <radialGradient id="glow" cx="0.2" cy="0.35" r="0.6">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#bae6fd"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#fff" stroke-opacity="0.035"/></pattern>
+    <radialGradient id="g1" cx="0.18" cy="0.25" r="0.55"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.20"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="0.85" cy="0.8" r="0.5"><stop offset="0" stop-color="#34d399" stop-opacity="0.16"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></radialGradient>
     <style>
-      .t  { font-family: 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
-      .m  { font-family: 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
-      .node { fill: #38bdf8; }
-      .pulse { animation: pulse 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-      .p2 { animation-delay: .8s } .p3 { animation-delay: 1.6s } .p4 { animation-delay: 2.2s }
-      @keyframes pulse { 0%,100% { opacity: .35; transform: scale(1) } 50% { opacity: 1; transform: scale(1.6) } }
-      .flow { stroke-dasharray: 6 10; animation: flow 2.4s linear infinite; }
-      @keyframes flow { to { stroke-dashoffset: -32 } }
-      .line { opacity: 0; animation: show 9s steps(1) infinite; }
-      .l1 { animation-delay: 0s } .l2 { animation-delay: .9s } .l3 { animation-delay: 1.8s }
-      .l4 { animation-delay: 2.7s } .l5 { animation-delay: 3.6s }
-      @keyframes show { 0% { opacity: 1 } 100% { opacity: 1 } }
-      .caret { animation: blink 1s steps(1) infinite; }
-      @keyframes blink { 50% { opacity: 0 } }
-      .fade { animation: fade 1.2s ease-out both; }
-      @keyframes fade { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+      .t{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}.m{font-family:'Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace}
+      .node{fill:#38bdf8}.pulse{animation:p 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .d2{animation-delay:.7s}.d3{animation-delay:1.4s}.d4{animation-delay:2.1s}
+      @keyframes p{0%,100%{opacity:.3;transform:scale(1)}50%{opacity:1;transform:scale(1.7)}}
+      .flow{stroke-dasharray:5 9;animation:f 2.6s linear infinite}@keyframes f{to{stroke-dashoffset:-28}}
+      .caret{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+      .stat{fill:#0b1222;fill-opacity:.75;stroke:#1e3a5f}
+      .sn{font-size:30px;font-weight:800;fill:#f8fafc}.sl{font-size:12.5px;fill:#94a3b8}
     </style>
   </defs>
 
-  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
-  <rect width="1200" height="320" rx="18" fill="url(#glow)"/>
+  <rect width="1200" height="460" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="460" rx="20" fill="url(#grid)"/>
+  <rect width="1200" height="460" rx="20" fill="url(#g1)"/>
+  <rect width="1200" height="460" rx="20" fill="url(#g2)"/>
+  <rect x="0.5" y="0.5" width="1199" height="459" rx="20" fill="none" stroke="#38bdf8" stroke-opacity=".18"/>
 
-  <!-- rede: infraestrutura -> código -->
-  <g stroke="url(#accent)" stroke-width="1.5" fill="none" opacity="0.55">
-    <path class="flow" d="M60 292 L180 272 L300 294 L420 270"/>
-    <path class="flow" d="M180 272 L240 258"/>
-    <path class="flow" d="M420 270 L560 290"/>
+  <!-- rede ao fundo -->
+  <g stroke="url(#acc)" stroke-width="1.2" fill="none" opacity=".35">
+    <path class="flow" d="M640 40 L720 92 L700 170"/><path class="flow" d="M1120 420 L1160 360 L1180 300"/>
   </g>
-  <circle class="node pulse"    cx="60"  cy="292" r="4"/>
-  <circle class="node pulse p2" cx="180" cy="272" r="4"/>
-  <circle class="node pulse p3" cx="300" cy="294" r="4"/>
-  <circle class="node pulse p4" cx="420" cy="270" r="4"/>
-  <circle class="node pulse p2" cx="240" cy="258" r="3"/>
-  <circle class="node pulse p3" cx="560" cy="290" r="3"/>
+  <circle class="node pulse" cx="640" cy="40" r="3"/><circle class="node pulse d2" cx="720" cy="92" r="3"/>
+  <circle class="node pulse d3" cx="1160" cy="360" r="3"/><circle class="node pulse d4" cx="1180" cy="300" r="2.5"/>
 
   <!-- identidade -->
-  <g class="fade">
-    <text x="60" y="78" class="m" font-size="16" fill="#34d399">~/josecardosodev</text>
-    <text x="60" y="132" class="t" font-size="50" font-weight="700" fill="#f1f5f9">José Cardoso</text>
-    <rect x="60" y="148" width="120" height="4" rx="2" fill="url(#accent)"/>
-    <text x="60" y="186" class="t" font-size="21" fill="#cbd5e1">Suporte N3 · Automação em Python · Infraestrutura</text>
-    <text x="60" y="216" class="t" font-size="16" fill="#94a3b8">15+ anos transformando problemas de operação em sistemas</text>
+  <text x="56" y="72" class="m" font-size="16" fill="#34d399">~/josecardosodev <tspan fill="#64748b">$ whoami</tspan></text>
+  <text x="56" y="140" class="t" font-size="64" font-weight="800" fill="url(#name)">José Cardoso</text>
+  <rect x="56" y="158" width="150" height="5" rx="2.5" fill="url(#acc)"/>
+  <text x="56" y="202" class="t" font-size="21" font-weight="600" fill="#e2e8f0">Analista de Sistemas <tspan fill="#38bdf8">&amp;</tspan> Suporte Técnico Sênior <tspan fill="#38bdf8">·</tspan> N2/N3</text>
+  <text x="56" y="234" class="t" font-size="19" fill="#94a3b8">Sustentação <tspan fill="#38bdf8">·</tspan> Automação com Python <tspan fill="#38bdf8">·</tspan> Testes de QA</text>
+
+  <!-- numeros -->
+  <g class="t">
+    <rect x="56"  y="276" width="136" height="86" rx="12" class="stat"/><text x="72"  y="316" class="sn">15+</text><text x="72"  y="342" class="sl">anos em TI</text>
+    <rect x="202" y="276" width="136" height="86" rx="12" class="stat"/><text x="218" y="316" class="sn">4 mil</text><text x="218" y="342" class="sl">usuários atendidos</text>
+    <rect x="348" y="276" width="136" height="86" rx="12" class="stat"/><text x="364" y="316" class="sn">700</text><text x="364" y="342" class="sl">máquinas geridas</text>
+    <rect x="494" y="276" width="136" height="86" rx="12" class="stat"/><text x="510" y="316" class="sn">12</text><text x="510" y="342" class="sl">laboratórios</text>
+    <rect x="56" y="276" width="136" height="3" rx="1.5" fill="url(#acc)"/><rect x="202" y="276" width="136" height="3" rx="1.5" fill="url(#acc)"/>
+    <rect x="348" y="276" width="136" height="3" rx="1.5" fill="url(#acc)"/><rect x="494" y="276" width="136" height="3" rx="1.5" fill="url(#acc)"/>
+  </g>
+
+  <!-- chips -->
+  <g class="m" font-size="12.5">
+    <rect x="56" y="386" width="73" height="26" rx="13" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".45"/><text x="92" y="403" text-anchor="middle" fill="#bae6fd">Python</text>
+    <rect x="137" y="386" width="96" height="26" rx="13" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".45"/><text x="185" y="403" text-anchor="middle" fill="#bae6fd">APIs REST</text>
+    <rect x="241" y="386" width="142" height="26" rx="13" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".45"/><text x="312" y="403" text-anchor="middle" fill="#bae6fd">AD · GPO · M365</text>
+    <rect x="391" y="386" width="157" height="26" rx="13" fill="#34d399" fill-opacity=".12" stroke="#34d399" stroke-opacity=".45"/><text x="470" y="403" text-anchor="middle" fill="#a7f3d0">pytest · Selenium</text>
+    <rect x="556" y="386" width="96" height="26" rx="13" fill="#34d399" fill-opacity=".12" stroke="#34d399" stroke-opacity=".45"/><text x="604" y="403" text-anchor="middle" fill="#a7f3d0">ITSM/ITIL</text>
   </g>
 
   <!-- terminal -->
-  <g transform="translate(700 52)">
-    <rect width="440" height="216" rx="12" fill="#060a14" fill-opacity="0.85" stroke="#1e3a5f"/>
-    <circle cx="22" cy="20" r="6" fill="#f87171"/>
-    <circle cx="42" cy="20" r="6" fill="#fbbf24"/>
-    <circle cx="62" cy="20" r="6" fill="#34d399"/>
-    <text x="220" y="25" text-anchor="middle" class="m" font-size="12" fill="#64748b">powershell — automacao</text>
-    <g class="m" font-size="15">
-      <text x="22" y="66"  class="line l1" fill="#e2e8f0"><tspan fill="#34d399">PS&gt;</tspan> python triagem.py --ia claude</text>
-      <text x="22" y="96"  class="line l2" fill="#94a3b8">✔ chamado classificado: <tspan fill="#38bdf8">Alta</tspan></text>
-      <text x="22" y="126" class="line l3" fill="#e2e8f0"><tspan fill="#34d399">PS&gt;</tspan> pytest -q</text>
-      <text x="22" y="156" class="line l4" fill="#94a3b8">✔ <tspan fill="#34d399">24 passed</tspan> in 0.45s</text>
-      <text x="22" y="186" class="line l5" fill="#e2e8f0"><tspan fill="#34d399">PS&gt;</tspan> <tspan class="caret">▋</tspan></text>
+  <g transform="translate(696 70)">
+    <rect width="460" height="318" rx="14" fill="#050914" fill-opacity=".9" stroke="#1e3a5f"/>
+    <rect width="460" height="40" rx="14" fill="#0b1222"/><rect y="26" width="460" height="14" fill="#0b1222"/>
+    <circle cx="22" cy="20" r="6" fill="#f87171"/><circle cx="42" cy="20" r="6" fill="#fbbf24"/><circle cx="62" cy="20" r="6" fill="#34d399"/>
+    <text x="230" y="25" text-anchor="middle" class="m" font-size="12" fill="#64748b">powershell — josecardosodev</text>
+    <g class="m" font-size="14">
+      <text x="22" y="78"><tspan fill="#34d399">PS&gt;</tspan><tspan fill="#e2e8f0"> python triagem.py --ia claude</tspan></text>
+      <text x="22" y="104" fill="#94a3b8">  ✔ chamado classificado: <tspan fill="#38bdf8">Prioridade Alta</tspan></text>
+      <text x="22" y="144"><tspan fill="#34d399">PS&gt;</tspan><tspan fill="#e2e8f0"> zerocola --status</tspan></text>
+      <text x="22" y="170" fill="#94a3b8">  ✔ <tspan fill="#fbbf24">700 máquinas</tspan> · 12 labs protegidos</text>
+      <text x="22" y="210"><tspan fill="#34d399">PS&gt;</tspan><tspan fill="#e2e8f0"> pytest -q</tspan></text>
+      <text x="22" y="236" fill="#94a3b8">  ✔ <tspan fill="#34d399">24 passed</tspan> in 0.45s</text>
+      <text x="22" y="276"><tspan fill="#34d399">PS&gt;</tspan> <tspan class="caret" fill="#e2e8f0">▋</tspan></text>
     </g>
   </g>
 </svg>

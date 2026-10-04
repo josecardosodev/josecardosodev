@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="José Cardoso — Suporte N3, automação em Python e infraestrutura" width="100%">
+  <img src="assets/banner.svg" alt="José Cardoso — Analista de Sistemas e Suporte Técnico Sênior N2/N3, Sustentação, Automação com Python e Testes de QA" width="100%">
 </p>
 
 <p align="center">
   <a href="https://github.com/josecardosodev">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Automa%C3%A7%C3%A3o+de+processos+com+Python;IA+generativa+aplicada+a+suporte+t%C3%A9cnico;APIs+REST+com+FastAPI+%2B+testes+com+pytest;Active+Directory%2C+GPO+e+Microsoft+365" alt="Typing SVG">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Automa%C3%A7%C3%A3o+de+processos+com+Python;APIs+REST+com+FastAPI;Testes+de+QA+com+pytest+e+Selenium;Active+Directory%2C+GPO+e+Microsoft+365;IA+generativa+aplicada+a+suporte+t%C3%A9cnico" alt="Typing SVG">
   </a>
 </p>
 
@@ -17,19 +17,20 @@
 
 ### 👨‍💻 Sobre mim
 
-Analista de Suporte N3 com **15+ anos em TI** e coordenação técnica de uma operação
-que atende cerca de **4 mil usuários**. Pego um problema real da operação e transformo
+Analista de Sistemas e Suporte Técnico Sênior (N2/N3) com **15+ anos em TI** e coordenação
+técnica de uma operação que atende cerca de **4 mil usuários** e **700 máquinas em 12 laboratórios**. Pego um problema real da operação e transformo
 em sistema: triagem de chamados com IA, gestão de cadastros, controle de ambientes de prova.
 
 - 🔭 Destaque: **[IA Triagem de Chamados](https://github.com/josecardosodev/nat-ia-triagem)**, API que classifica chamados com o Claude (Anthropic)
-- 🌱 Estudando: FastAPI, testes automatizados e IA generativa aplicada a processos
+- 🧪 Qualidade: testes automatizados com **pytest** e **Selenium**
+- 🌱 Estudando: FastAPI, segurança de identidades e IA generativa aplicada a processos
 - 🎓 Graduação em Processos Gerenciais (FGV)
 - ⚡ Diferencial: entendo a **infraestrutura** onde o código vai rodar
 
 ### 🛠️ Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,sqlite,git,github,githubactions,vscode,windows,apple,powershell&perline=11" alt="Stack">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,selenium,postgres,sqlite,git,github,githubactions,vscode,windows,apple,powershell&perline=12" alt="Stack">
 </p>
 
 <p align="left">
